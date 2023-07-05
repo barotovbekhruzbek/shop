@@ -3,7 +3,8 @@
     <h1>{{ post.title }}</h1>
     <p>{{ post.description }}</p>
     <img :src="post.image" alt="">
-    <h3>{{ post.price }}</h3>
+    <h4>{{ post.price }}</h4>
+
   </div>
 </template>
 
